@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Roboto');
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+}
+
+.card-title{
+  font-family: 'Raleway', 'Open Sans','Roboto', sans-serif;
+}
+main {
+  flex: 1 0 auto;
+}
+
+.icones{
+  font-size: 30px!important;
+}
+
+img{
+  max-height: 244px!important;
+  max-width:  207px!important;
+}
+
+.tada, .swing{
+  animation-iteration-count: infinite;
+}
+
+.cage{
+  min-width: 100%;
+}

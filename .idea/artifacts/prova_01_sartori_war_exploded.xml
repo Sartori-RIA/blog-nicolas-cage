@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="prova-01-sartori:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/prova_01_sartori_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="prova-01-sartori/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="prova-01-sartori" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

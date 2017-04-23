@@ -1,0 +1,37 @@
+{
+  "name": "Prova JavaWeb",
+  "description": "primeira prova de javaWeb",
+  "main": "index.jsp",
+  "keywords": [
+    "nicolas",
+    "cage",
+    "jsp",
+    "javaweb",
+    "wowjs",
+    "animatecss",
+    "intellij",
+    "idea",
+    "font-awesome",
+    "ionicons",
+    "materialize"
+  ],
+  "authors": [
+    "Lucas Antonio Ramos Sartori"
+  ],
+  "license": "MIT",
+  "homepage": "sartori-ria.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Ionicons": "ionicons#^2.0.1",
+    "jquery-validation": "^1.16.0",
+    "font-awesome": "FortAwesome/Font-Awesome#^4.7.0",
+    "materialize": "^0.98.1",
+    "wow": "wowjs#^1.1.2"
+  }
+}
