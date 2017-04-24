@@ -39,6 +39,7 @@ public class SessionFilter implements Filter {
 		}	
 		else{
 			System.out.println("com sessão " + ((HttpServletRequest)request).getSession(false));
+			chain.doFilter(request, response);
 			//((HttpServletResponse)response).sendRedirect(request.getServletContext().getContextPath() + "/blog-form");
 		}		
 	}

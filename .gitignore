@@ -183,3 +183,14 @@ local.properties
 .scala_dependencies
 .worksheet
 
+.idea/artifacts/
+.idea/inspectionProfiles/
+.idea/kotlinc.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/sqldialects.xml
+.idea/uiDesigner.xml
+.idea/webContexts.xml
+.idea/workspace.xml
+
+out/

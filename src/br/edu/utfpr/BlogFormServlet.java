@@ -16,6 +16,15 @@ import java.io.IOException;
 public class BlogFormServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+       processing(req, resp);
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        processing(req, resp);
+    }
+
+    private void processing(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
         Boolean isLoggedIn = (Boolean)req.getSession().getAttribute("isLoggedIn");
         if(isLoggedIn){
             String address = "/WEB-INF/view/blog.jsp";
@@ -25,10 +34,5 @@ public class BlogFormServlet extends HttpServlet {
         else{
             resp.sendRedirect("index.jsp");
         }
-    }
-
-    @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        doGet(req, resp);
     }
 }

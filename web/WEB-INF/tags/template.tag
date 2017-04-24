@@ -75,6 +75,7 @@
         <div data-wow-delay="0.5s" class="col s12 m6 l6 xl6 wow slideInDown">
             <jsp:doBody />
         </div>
+
         <div class="hide-on-med-and-down col m3 l3 xl3">
             <div data-wow-delay="0.5s" class=" wow slideInRight">
                 <img class="animated swing" src="resources/assets/img/15.png"><br>

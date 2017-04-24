@@ -15,7 +15,7 @@ public class BlogDAO extends ConnectionDB{
     private Connection connection;
     private PreparedStatement statement;
 
-    public String create(String title, String content) throws SQLException {
+    public void create(String title, String content) throws SQLException {
         try {
             statement= connection.prepareStatement("INSERT INTO blog(title, content) " +
                     "values ("+ title + ","+ content + ");");
@@ -25,7 +25,6 @@ public class BlogDAO extends ConnectionDB{
             e.printStackTrace();
             System.out.println("Exception is ;"+e);
         }
-        return "oi";
     }
 
     public void show(){

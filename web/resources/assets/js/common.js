@@ -24,7 +24,7 @@ $(document).ready(function () {
                 required: true
             },
             password: {
-
+                required: true
             }
         },
         messages: {
